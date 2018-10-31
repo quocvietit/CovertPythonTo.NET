@@ -1,0 +1,12 @@
+def do_challenge_response(comm):
+    kilo_header, kilo_response = comm.call(request_kilo)
+    kilo_challenge = kilo_header[8:12]
+    chalstring = ":".join("{:02x}".format(ord(k)) for k in kilo_challenge)
+    _logger.debug("Challenge: %s" %chalstring)
+    print("Challenge: %s" %chalstring)
+    key2 = b'qndiakxxuiemdklseqid~a~niq,zjuxl' # if this doesnt work try 'lgowvqnltpvtgogwswqn~n~mtjjjqxro'
+    kilo_response = do_aes_encrypt(key_xoring(key_transform(key2), kilo_challenge))
+    respstring = ":".join("{:02x}".format(ord(m)) for m in kilo_response)
+    #_logger.debug("Response: %s" %respstring)
+    print("Response: %s" %respstring)
+    metr_header, metr_response = comm.call(request_kilo_metr)

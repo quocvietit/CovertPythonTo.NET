@@ -1,0 +1,23 @@
+def key_transform(old_key):
+    new_key = ''
+    for x in range(32,0,-1):
+        new_key += chr(ord(old_key[x-1]) - (x % 0x0C))
+    return new_key
+
+def key_xoring(key2_t, kilo_challenge):
+    key2_t_xor = ''
+    i = 0
+    while i <= 28:
+        key2_t_xor += chr(ord(key2_t[i]) ^ ord(kilo_challenge[3]))
+        key2_t_xor += chr(ord(key2_t[i+1]) ^ ord(kilo_challenge[2]))
+        key2_t_xor += chr(ord(key2_t[i+2]) ^ ord(kilo_challenge[1]))
+        key2_t_xor += chr(ord(key2_t[i+3]) ^ ord(kilo_challenge[0]))
+        i = i + 4
+    return key2_t_xor
+
+def do_aes_encrypt(key2_t_xor):
+    plaintext = b''
+    for k in range(0,16):
+        plaintext += chr(k)
+    obj = AES.new(key2_t_xor, AES.MODE_ECB)
+    return obj.encrypt(plaintext)

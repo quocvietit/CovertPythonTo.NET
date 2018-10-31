@@ -1,0 +1,10 @@
+## BUILD
+1. Open foldef: CovertCode
+2. Run cmd: dotnet build -r win10-x64
+
+
+## RUN
+1. Open foldef: CovertCode\CovertCode\bin\Debug\netcoreapp2.1\win10-x64
+2. Run cmd: CovertCode.exe [key] [kilo_chanenge]
+EX:
+	CovertCode.exe "qndiakxxuiemdklseqid~a~niq,zjuxl" "ace5b106"

@@ -1,0 +1,11 @@
+D:\Work\Freelance\CovertPythonToC#\CovertCode\CovertCode\bin\Debug\netcoreapp2.1\CovertCode.deps.json
+D:\Work\Freelance\CovertPythonToC#\CovertCode\CovertCode\bin\Debug\netcoreapp2.1\CovertCode.dll
+D:\Work\Freelance\CovertPythonToC#\CovertCode\CovertCode\bin\Debug\netcoreapp2.1\CovertCode.pdb
+D:\Work\Freelance\CovertPythonToC#\CovertCode\CovertCode\obj\Debug\netcoreapp2.1\CovertCode.csproj.CoreCompileInputs.cache
+D:\Work\Freelance\CovertPythonToC#\CovertCode\CovertCode\obj\Debug\netcoreapp2.1\CovertCode.AssemblyInfoInputs.cache
+D:\Work\Freelance\CovertPythonToC#\CovertCode\CovertCode\obj\Debug\netcoreapp2.1\CovertCode.AssemblyInfo.cs
+D:\Work\Freelance\CovertPythonToC#\CovertCode\CovertCode\obj\Debug\netcoreapp2.1\CovertCode.dll
+D:\Work\Freelance\CovertPythonToC#\CovertCode\CovertCode\obj\Debug\netcoreapp2.1\CovertCode.pdb
+D:\Work\Freelance\CovertPythonToC#\CovertCode\CovertCode\bin\Debug\netcoreapp2.1\CovertCode.runtimeconfig.json
+D:\Work\Freelance\CovertPythonToC#\CovertCode\CovertCode\bin\Debug\netcoreapp2.1\CovertCode.runtimeconfig.dev.json
+D:\Work\Freelance\CovertPythonToC#\CovertCode\CovertCode\obj\Debug\netcoreapp2.1\CovertCode.csprojAssemblyReference.cache
